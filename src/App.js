@@ -29,7 +29,7 @@ function App() {
       <Router>
        <Navbar></Navbar>
         <Switch>
-          <Route exact path="/" render={()=>{
+        <Route exact path="/Post-App/" render={()=>{
             return (<>
             <div className="content">
              <Home posts={posts} onDelete={onDelete} setpost={setpost}/>
