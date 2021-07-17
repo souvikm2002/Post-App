@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Post App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is to design a app which allows us to post on timeline
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+In the app, you can:
 
-### `npm start`
+### Navigate between different sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This app allows us to navigate between three different tabs, without reloading the page, with default tab as Home tab.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Add Post`
 
-### `npm test`
+This allows us to write on dashboard and post it. Post will be visible on timeline
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Delete Post`
 
-### `npm run build`
+You are free to make changes by Deleting the posts which are no furthur required
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Edit Post`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can also modify a previously posted item according to your needs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Upvote and Downvote`
 
-### `npm run eject`
+**Note: this is a one-way operation. Once you `Upvote`, you can’t decrease the number count!**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This allows to Upvote and Downvote a post simply by clicking the respective buttons. The numbers will increase consequently
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Alert Message
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This feature allows to display an alert message at top of Home page, which is displayed when either post is added, edited or deleted.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Sign-In
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is another tab where user can sign-in with the required credentials. Though this page isn't totally developed, so it won't work fully.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Sign-Up
 
-### Code Splitting
+This is another tab, which will allow us to create a account after filling up the required credentials. Same as before, this page isn't totally developed, so it won't work fully.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
