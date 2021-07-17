@@ -10,6 +10,10 @@ In the app, you can:
 
 This app allows us to navigate between three different tabs, without reloading the page, with default tab as Home tab.
 
+## Home
+
+Features of Home tab include:
+
 ### `Add Post`
 
 This allows us to write on dashboard and post it. Post will be visible on timeline
@@ -24,7 +28,7 @@ You can also modify a previously posted item according to your needs
 
 ### `Upvote and Downvote`
 
-**Note: this is a one-way operation. Once you `Upvote`, you can’t decrease the number count!**
+**Note: this is a one-way operation. Once you `Upvote` or `Downvote`, you can’t decrease the number count!**
 
 This allows to Upvote and Downvote a post simply by clicking the respective buttons. The numbers will increase consequently
 
@@ -33,11 +37,11 @@ This allows to Upvote and Downvote a post simply by clicking the respective butt
 This feature allows to display an alert message at top of Home page, which is displayed when either post is added, edited or deleted.
 
 
-### Sign-In
+## Sign-In
 
 This is another tab where user can sign-in with the required credentials. Though this page isn't totally developed, so it won't work fully.
 
-### Sign-Up
+## Sign-Up
 
 This is another tab, which will allow us to create a account after filling up the required credentials. Same as before, this page isn't totally developed, so it won't work fully.
 
