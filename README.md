@@ -32,7 +32,7 @@ You can also modify a previously posted item according to your needs
 
 This allows to Upvote and Downvote a post simply by clicking the respective buttons. The numbers will increase consequently
 
-## Alert Message
+### Alert Message
 
 This feature allows to display an alert message at top of Home page, which is displayed when either post is added, edited or deleted.
 
