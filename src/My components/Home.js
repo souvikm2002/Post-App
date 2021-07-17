@@ -30,7 +30,7 @@ const Home = (props) => {
             dislike: 0,
         }
         props.setpost([...props.posts,Mypost]);  //adding Mypost to posts
-        showAlert(true, 'success', 'Your post is posted in timeline');   /*this is use alert function while adding*/
+        showAlert(true, 'success', 'Your post is added in timeline');   /*this is use alert function while adding*/
         console.log(Mypost);
     }
 
@@ -59,7 +59,7 @@ const Home = (props) => {
 
     const onDelete=(post)=>{    /*onDelete is again described here from parent app folder*/
         props.onDelete(post);
-        showAlert(true, 'danger', 'post removed');  /*this is used while deleting*/
+        showAlert(true, 'danger', 'post removed from Timeline');  /*this is used while deleting*/
         settogglepost(false);
         setdescedit('');
     }
