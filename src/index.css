@@ -20,6 +20,9 @@
   color: red;
   font-weight:bold;
 }
+.Navbar h2{
+  display: none;
+}
 
 .Navbar .Links{
   margin-left: auto;
@@ -321,10 +324,15 @@
     font-size:15px;
   }
   .Navbar h1{
+    display: none;
+  }
+  .Navbar h2{
+    display: block;
     font-weight: normal;
-    margin-left: -1.7rem;
+    margin-left: -3px;
     font-size: 20px;
   }
+  
   .contentsign{
     width: 85%;
   }
@@ -344,7 +352,7 @@
 
 @media only screen and (max-width: 634px){
   .Navbar .Links{
-    margin-left: 9%;
+    margin-left: 14%;
     font-size:15px;
   }
 }
