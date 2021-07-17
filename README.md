@@ -6,7 +6,7 @@ This project is to design a app which allows us to post on timeline
 
 In the app, you can:
 
-### Navigate between different sections
+### Navigate between different sections:
 
 This app allows us to navigate between three different tabs, without reloading the page, with default tab as Home tab.
 
