@@ -36,7 +36,7 @@ const AddPost = (props) => {
         <div>
             <p className="Buttomcontent">Type your post here...</p>
             <form className="inputbox" onSubmit={submit}>
-                <input type="text" placeholder="NOTE : To edit, press edit button and write new text here " value={desc} onClick={()=>{setdesc(props.descedit)}} onChange={(e)=>{setdesc(e.target.value)}} style={{
+                <input type="text" placeholder="NOTE : To edit, press edit button and write new text here " value={desc} onClick={()=>{setdesc(props.descedit)}} onChange={(e)=>{setdesc(e.target.value); props.setdescedit(desc)}} style={{
                     maxWidth:"40rem",
                     width:"90%",
                     paddingTop:"10px",
