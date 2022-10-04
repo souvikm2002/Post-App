@@ -1,4 +1,6 @@
-# Post App contribution guidelies
+# Post App 
+
+## Contribution guidelies
 
 Work on the issues labelled as hacktoberfest for your hacktoberfest contributions
 1. The PR's should have a clear description of the issue resolved
@@ -6,11 +8,12 @@ Work on the issues labelled as hacktoberfest for your hacktoberfest contribution
 3. Any contribution other than the issues mentioned will be accepted if it is valid
 4. Your PR's will be accepted within 5-7 days of opening
 5. Before you start, fork the repo in your account and start contributing
+6. Try to improve the signin and signup page designs
 
 ## Features
 
 For the features of the app, go through README.md
 
-# Happy Hacking
+## Happy Hacking
 
 Everyone is welcome
